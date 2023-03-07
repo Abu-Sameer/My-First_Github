@@ -1,0 +1,66 @@
+.listing-detail {
+  flex: 9;
+}
+
+.listing-detail-content {
+  margin: 10px 10px 10px 20px;
+}
+
+.listing-detail-image {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.listing-detail-title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 10px;
+  font-family: 'raleway', sans-serif;
+  font-size: 30px;
+}
+
+.listing-detail-action {
+  position: absolute;
+  right: 0;
+}
+
+.listing-detail-edit,
+.listing-detail-trash {
+  margin-left: 15px;
+  font-size: 22px;
+}
+
+.listing-detail-edit {
+  color: rgb(97, 129, 97);
+}
+
+.listing-detail-trash {
+  color: orangered;
+}
+
+.listing-detail-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 20px 0;
+  color: var(--primary-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+.listing-detail-author-name {
+  font-weight: bold;
+}
+
+.listing-detail-information {
+  color: var(--primary-color);
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.listing-detail-information::first-letter {
+  font-size: 30px;
+  font-weight: 650px;
+  margin-left: 15px;
+}
